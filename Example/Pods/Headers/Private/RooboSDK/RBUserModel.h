@@ -1,0 +1,1 @@
+../../../../../RooboSDK/Classes/Model/RBUserModel.h

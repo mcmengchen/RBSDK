@@ -1,0 +1,42 @@
+{
+  "name": "RooboSDK",
+  "version": "1.0.1",
+  "summary": "A short description of RooboSDK.",
+  "description": "A short description of RooboSDK.",
+  "homepage": "https://git.365jiating.com/baxiang1/RooboSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "baxiang": "baxiang1989@163.com"
+  },
+  "source": {
+    "git": "git@git.365jiating.com:baxiang1/RooboSDK.git",
+    "tag": "1.0.1"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "RooboSDK/Classes/**/*.{h,m,cpp,mm}",
+  "resources": [
+    "RooboSDK/Classes/RBLoginKit/Util/RBLoginKit.bundle",
+    "RooboSDK/Classes/RBLoginKit/Extern/MitLoadingHUD/MitLoading.bundle",
+    "RooboSDK/Classes/Utils/RBVoice.bundle"
+  ],
+  "libraries": "c++",
+  "frameworks": [
+    "UIKit",
+    "WebKit"
+  ],
+  "public_header_files": "RooboSDK/Classes/**/*.h",
+  "dependencies": {
+    "RBNetwork": [
+
+    ],
+    "YYModel": [
+
+    ]
+  }
+}

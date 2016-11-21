@@ -1,0 +1,12 @@
+
+
+target 'RooboSDK_Example' do
+  pod 'RooboSDK', :path => '../'
+  pod 'RBNetwork'
+  pod 'YYModel'
+  target 'RooboSDK_Tests' do
+  inherit! :search_paths
+
+    
+  end
+end

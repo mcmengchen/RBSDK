@@ -1,0 +1,1 @@
+../../../../../RooboSDK/Classes/Model/RBDeviceModel.h
