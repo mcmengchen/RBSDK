@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = 'RooboSDK'
-  s.version          = '1.0.2'
-  s.summary          = 'A short description of RooboSDK.'
+  s.version          = '1.0.0'
+  s.summary          = 'A short summary of RooboSDK.'
   s.description      = 'A short description of RooboSDK.'
-  s.homepage         = 'https://git.365jiating.com/baxiang1/RooboSDK'
+  s.homepage         = 'https://github.com/mcmengchen/RBSDK'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'baxiang' => 'baxiang1989@163.com' }
-  s.source           = { :git => 'git@git.365jiating.com:baxiang1/RooboSDK.git', :tag => s.version.to_s }
+  s.author           = { 'mengchen' => '416922992@qq.com' }
+  s.source           = { :git => 'https://github.com/mcmengchen/RBSDK.git', :tag => s.version.to_s }
   s.platform = :ios, '7.0'
   s.requires_arc = true
   s.vendored_framework   = 'RooboSDK/ios/RooboSDK.embeddedframework/RooboSDK.framework'
